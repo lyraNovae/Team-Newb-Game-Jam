@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bj3lwog0gv4tp" path="res://scenes/parent.tscn" id="1_2q6dc"]
 [ext_resource type="PackedScene" uid="uid://n1v5lx8lmsim" path="res://scenes/satellite.tscn" id="2_w7c3h"]
+[ext_resource type="Script" uid="uid://bhyw32h22u7rd" path="res://scenes/satellite.gd" id="3_w8frs"]
 
 [node name="level" type="Node2D" unique_id=90415027]
 
@@ -14,3 +15,4 @@ mass = 100
 [node name="Satellite" parent="." unique_id=7377556 instance=ExtResource("2_w7c3h")]
 position = Vector2(1303, 704)
 motion_mode = 1
+script = ExtResource("3_w8frs")
